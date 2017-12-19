@@ -1,0 +1,94 @@
+/* TEMPLATE STYLES */
+
+
+/*Main layout*/
+
+main,
+footer {
+    padding-left: 240px;
+}
+
+@media only screen and (max-width: 992px) {
+    main,
+    footer {
+        padding-left: 0;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .main-wrapper {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    main {
+        padding-top: 15px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .main-wrapper {
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+    main {
+        padding-top: 15px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .main-wrapper {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    main {
+        padding-top: 90px;
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+    .main-wrapper {
+        margin-left: 9%;
+        margin-right: 9%;
+    }
+}
+
+
+/*Extra layout*/
+
+.section-title {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+
+/*Colors*/
+
+.btn-primary {
+  background: #212121!important;
+}
+
+.btn-primary:hover, .btn-primary:focus {
+  background-color: #2E2E2E !important;
+}
+
+.btn-primary.active {
+  background-color: #2E2E2E !important;
+}
+
+.btn-default {
+  background: #263238!important;
+}
+
+.btn-default:hover, .btn-default:focus {
+  background-color: #37474F !important;
+}
+
+.btn-default.active {
+  background-color: #37474F !important;
+}
+.carousel-indicators li {
+    background: #263238!important;
+}
+.card .card-data {
+    background-color: #2E2E2E;
+}
