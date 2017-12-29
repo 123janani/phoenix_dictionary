@@ -968,6 +968,10 @@
                         <a target="_blank" href="#">
                         <img  alt="Messanger"  src="<?php echo ASSETS;?>img/facebook.png" width="65" height="65">
                         </a>
+                        
+                         <a class="btn-floating btn-small " target="_blank" href="https://github.com/GGSLK/phoenix_dictionary/"><i class="fa fa-github"> </i></a>
+                       
+                        
                      </center>
                   </div>
                   <div class="col-md-2"></div>
